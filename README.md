@@ -13,7 +13,7 @@ The system leverages natural language processing techniques and traditional ML m
 - Multiple ML models trained and compared
 - Final deployed model: Naive Bayes
 - Live prediction frontend built with Streamlit
-- Model and vectorizer saved with **pickle** for reuse
+- Model and vectorizer saved with pickle for reuse
 
 ---
 
@@ -26,7 +26,7 @@ The following models were trained and evaluated using accuracy and precision met
 - ✅ Support Vector Machine (SVM)
 - ✅ Decision Tree Classifier
 
-> ✅ **Final Model** used in the Streamlit frontend : **Multinomial Naive Bayes**
+> ✅ **Final Model** used in the Streamlit frontend : **Naive Bayes**
 
 ---
 
