@@ -2,7 +2,7 @@
 
 **Email Spam Detection** is a Machine Learning project designed to classify emails as **Spam** or **Not Spam** based on their textual content.
 
-The system leverages natural language processing techniques and traditional ML models to identify patterns in email data and detect spam effectively. It includes a Streamlit-based frontend that allows users to input email text and receive instant classification results.
+The system leverages natural language processing techniques and traditional ML models to identify patterns in email data and detect spam effectively. It includes a Streamlit-based UI that allows users to input email text and receive instant classification results.
 
 ---
 
@@ -49,7 +49,7 @@ The following models were trained and evaluated using accuracy and precision met
 
 ## 🚦 How It Works
 
-1. User inputs email text into the Streamlit frontend.
+1. User inputs email text into the Streamlit UI.
 2. The text is transformed using the trained TF-IDF vectorizer.
 3. The vectorized input is passed to the Naive Bayes model.
 4. The model outputs `Spam` or `Not Spam` as the prediction.
