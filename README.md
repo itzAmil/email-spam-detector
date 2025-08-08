@@ -56,7 +56,7 @@ The following models were trained and evaluated using accuracy and precision met
 
 ---
 
-### 👥 Contributors
+## 👥 Contributors
 
 This project was originally developed as part of a group academic project.
 
@@ -70,7 +70,8 @@ This project was originally developed as part of a group academic project.
 
 ---
 
-📄 License  
+## 📄 License
+
 This project is open-source under the [MIT License](LICENSE).  
 You are free to use, modify, and distribute it with proper credit.
 
