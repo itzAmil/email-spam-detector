@@ -2,17 +2,17 @@
 
 Email Spam Detection is a Machine Learning project designed to classify emails as **Spam** or **Not Spam** based on their textual content.
 
-The system leverages natural language processing techniques and traditional ML models to identify patterns in email data and detect spam effectively. It includes a **Streamlit-based web app** that allows users to input email text and receive instant classification results.
+The system leverages natural language processing techniques and traditional ML models to identify patterns in email data and detect spam effectively. It includes a Streamlit-based frontend that allows users to input email text and receive instant classification results.
 
 ---
 
 ## 🚀 Features
 
 - Email preprocessing: lowercase conversion, punctuation removal
-- Feature extraction using **TF-IDF Vectorizer**
+- Feature extraction using TF-IDF Vectorizer
 - Multiple ML models trained and compared
-- Final deployed model: ✅ Multinomial Naive Bayes
-- Live prediction app built with **Streamlit**
+- Final deployed model: Naive Bayes
+- Live prediction frontend built with Streamlit
 - Model and vectorizer saved with **pickle** for reuse
 
 ---
@@ -21,12 +21,12 @@ The system leverages natural language processing techniques and traditional ML m
 
 The following models were trained and evaluated using accuracy and precision metrics:
 
-- ✅ Multinomial Naive Bayes
+- ✅ Naive Bayes
 - ✅ Logistic Regression
 - ✅ Support Vector Machine (SVM)
 - ✅ Decision Tree Classifier
 
-> ✅ **Final Model** used in the Streamlit app: **Multinomial Naive Bayes**
+> ✅ **Final Model** used in the Streamlit frontend : **Multinomial Naive Bayes**
 
 ---
 
@@ -37,7 +37,7 @@ The following models were trained and evaluated using accuracy and precision met
 - scikit-learn
 - pandas
 - pickle
-- nltk (for optional enhancements)
+- nltk 
 
 ---
 
@@ -51,8 +51,8 @@ The following models were trained and evaluated using accuracy and precision met
 ## 🚦 How It Works
 
 1. User inputs email text into the Streamlit web app.
-2. The text is transformed using the trained **TF-IDF vectorizer**.
-3. The vectorized input is passed to the **Multinomial Naive Bayes model**.
+2. The text is transformed using the trained TF-IDF vectorizer.
+3. The vectorized input is passed to the Naive Bayes model.
 4. The model outputs `Spam` or `Not Spam` as the prediction.
 
 ---
@@ -68,10 +68,6 @@ This project was originally developed as part of a group academic project.
 - Ajay Chaurasiya  
 
 > Project restructured, documented, and maintained by **Amil Gauri** for public release.
-
-### 👤 Maintainer
-
-**Amil Gauri** – restructuring, documentation, and deployment for public release.
 
 ---
 
