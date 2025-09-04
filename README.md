@@ -6,7 +6,7 @@ The system leverages natural language processing techniques and traditional ML m
 
 ---
 
-## 🚀 Features
+## Features
 
 - Email preprocessing: lowercase conversion, punctuation removal
 - Feature extraction using TF-IDF Vectorizer
@@ -16,20 +16,20 @@ The system leverages natural language processing techniques and traditional ML m
   
 ---
 
-## 🧠 Models Trained & Evaluated
+## Models Trained & Evaluated
 
 The following models were trained and evaluated using accuracy and precision metrics:
 
-- ✅ Naive Bayes
-- ✅ Logistic Regression
-- ✅ Support Vector Machine (SVM)
-- ✅ Decision Tree Classifier
+- Naive Bayes
+- Logistic Regression
+- Support Vector Machine (SVM)
+- Decision Tree Classifier
 
-> ✅ **Final Model** used in the Streamlit frontend : **Naive Bayes**
+> **Final Model** used in the Streamlit frontend : **Naive Bayes**
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - Python 3.13
 - Streamlit
@@ -40,14 +40,14 @@ The following models were trained and evaluated using accuracy and precision met
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 - File: `mail_data.csv`
 - Contains labeled email text data with 'label' (spam/ham) and 'text' column.
 
 ---
 
-## 🚦 How It Works
+## How It Works
 
 1. User inputs email text into the Streamlit UI.
 2. The text is transformed using the trained TF-IDF vectorizer.
@@ -56,7 +56,7 @@ The following models were trained and evaluated using accuracy and precision met
 
 ---
 
-## 👥 Contributors
+## Contributors
 
 This project was originally developed as part of a group academic project.
 
@@ -70,7 +70,7 @@ This project was originally developed as part of a group academic project.
 
 ---
 
-## 📄 License
+## License
 
 This project is open-source under the [MIT License](LICENSE).  
 You are free to use, modify, and distribute it with proper credit.
