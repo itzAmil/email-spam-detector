@@ -25,7 +25,7 @@ The following models were trained and evaluated using accuracy and precision met
 - Support Vector Machine (SVM)
 - Decision Tree Classifier
 
-> **Final Model** used in the Streamlit frontend : **Naive Bayes**
+> **Final Model** used in the Streamlit UI : **Naive Bayes**
 
 ---
 
